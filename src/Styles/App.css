@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+
+h4{
+  margin: 1% 25%;
+}
+
+@media only screen and (max-width: 920px) {
+  h4 {
+    margin: 1% 5%;
+  }
+}
+
+
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('../Fonts/Minecraftia-Regular.eot'); 
+  src: url('../Fonts/Minecraftia-Regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('../Fonts/Minecraftia-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../Fonts/Minecraftia-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../Fonts/Minecraftia-Regular.svg#svgMinecraftia') format('svg'); /* Legacy iOS */
+ }
+
+body{
+  background-color: floralwhite;
+  font-family: 'Minecraftia', Courier, monospace;
+}
+
+@media only screen and (max-width: 920px) {
+  body {
+    font-size: small;
+  }
+}
+
+.pokeButton{
+  background-color: #FF0000;
+  border-width: 2px;
+  border-radius: 3px;
+  border-color: white;
+  padding: 5px;
+  color: white;
+  font-family: 'Minecraftia', Courier, monospace;
+  font-size: small;
+  margin: 2% 0;
+  max-width: fit-content;
+}
+
+.pokeButton:hover{
+  cursor: pointer;
+  background-color: #CC0000;
+}
+
+@media only screen and (max-width: 920px) {
+  .buttonAddPokemon,
+  .buttonCancelPokeTeam,
+  .buttonPokeTeamIsFull {
+    font-size: x-small;
+  }
+}

@@ -1,0 +1,72 @@
+.divPokeTeam{
+    color: white;
+    align-items: center;
+    background-image: url("../BG_PKM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 5%;
+  }
+  
+
+.poketeamContainer {
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 10em;
+  }
+  
+  .poketeamCell {
+    opacity: 0.8;
+    background-color: blanchedalmond;
+    width: 14%;
+    border: 2px double black;
+    padding: 1%;
+    color: black;
+    text-transform: capitalize;
+    min-height: 10em;
+  }
+
+  @media only screen and (max-width: 920px) {
+    .poketeamCell {
+      width: 30%;
+      min-height: 8em;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .poketeamCell {
+      width: 45%;
+      min-height: 8em;
+    }
+  }
+  
+  .imgPokeTeam {
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+  
+  .textURL {
+    color: #FF0000;
+  }
+  
+  .textURL:hover {
+    cursor: pointer;
+    color: #CC0000;
+  }
+
+  .buttonPokeTeamIsFull{
+    max-width: fit-content;
+    border: 2px inset;
+    border-color: dimgray;
+    border-radius: 3%;
+    background-color: rgb(207, 207, 207);
+    color: dimgrey;
+  }
+
+  .buttonPokeTeamIsFull:hover{
+    cursor: pointer;
+  }
+  
